@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+请点击->
 <a href="Ognl.action?greeting=jack">ognl</a>
 </body>
 </html>

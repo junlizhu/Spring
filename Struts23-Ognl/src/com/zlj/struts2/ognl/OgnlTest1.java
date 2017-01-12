@@ -10,12 +10,11 @@ import com.zlj.struts2.ognlvaluestack.Teacher;
 import ognl.OgnlException;
 
 public class OgnlTest1 {
-	
 
-	public static void main(String[] args)throws OgnlException {
-		Student stu = new Student("Jack",20);
-		Teacher tea = new Teacher("Scott",40);
-		
+	public static void main(String[] args) throws OgnlException {
+		Student stu = new Student("Jack", 20);
+		Teacher tea = new Teacher("Scott", 40);
+
 		OgnlContext context = new OgnlContext();
 		context.put("student", stu);
 		context.put("teacher", tea);

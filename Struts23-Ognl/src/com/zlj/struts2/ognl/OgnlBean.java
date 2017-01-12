@@ -10,6 +10,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
+
 public class OgnlBean {
 	public static final String staticProperty = "This is a static property!";
 
